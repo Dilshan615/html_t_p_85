@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>My Habit Tracker</h1>
+            <p>Stay consistent and achieve your goals!</p>
+        </header>
+
+        <form id="add-habit-form">
+            <input type="text" id="habit-input" placeholder="Enter a new habit (e.g., Read for 15 minutes)" required
+                autocomplete="off" />
+            <button type="submit">Add Habit</button>
+        </form>
+        <main>
+            <h2>Today's Habits</h2>
+            <ul id="habit-list">
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
